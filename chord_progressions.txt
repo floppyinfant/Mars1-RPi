@@ -1,0 +1,147 @@
+# Chord Progression (when the key is C)
+
+# Pops type
+
+C | Am | Dm | G7 |
+C/Am | Dm/G7 | C/Am | Dm/G7 |
+C | F | C | G7 |
+Cm | Fm | Cm | G7 |
+C/F | C/G7 | C/F | C/G7 |
+Cm/Fm | Cm/G7 | Cm/Fm | Cm/G7 |
+C | Em | F | G7 |
+C/Em | F/G7 | C/Em | F/G7 |
+C | Am | F | G | Em | Am | Dm | G7 |
+C/Am | F/G | Em/Am | Dm/G7 |
+F | Em | Dm | C |
+F/Em | Dm/C | F/Em | Dm/C |
+Am | D | G7 | C |
+Am/D | G7/C | Am/D | G7/C |
+Cm | Fm | Bb | Eb | Ab | Dm7(b5) | G | G7 |
+Cm/Fm | Bb/Eb | Ab/Dm7(b5) | G/G7 |
+C | Ab | Bb | G7 |
+C/Ab | Bb/G7 | C/Ab | Bb/G7 |
+C | C | Am | Am | F | G | C | G7 |
+C | Am | F/G | C/G7 |
+C | G | Am | F | C | G | F | C |
+C/G | Am/F | C/G | F/C |
+C | Dm | Em | F |
+C/Dm | Em/F | C/Dm | Em/F |
+
+
+# Ballad type
+
+CM7 | CM7 | FM7 | FM7 |
+Cm7 | Cm7 | Fm7 | Fm7 |
+CM7 | FM7 | CM7 | FM7 |
+Cm7 | Fm7 | Cm7 | Fm7 |
+FM7 | Em7 | Dm7 | CM7 |
+FM7/Em7 | Dm7/CM7 | FM7/Em7 | Dm7/CM7 |
+CM7 | Em7 | FM7 | G7 |
+CM7/Em7 | FM7/G7 | CM7/Em7 | FM7/G7 |
+CM7 | Cm6 | Bm7 | Em7 | Am7 | D7 | GM7 | G7 |
+CM7/Cm6 | Bm7/Em7 | Am7/D7 | GM7/G7 |
+CM7 | FM7 | Bm7(b5) | E7 | Am7 | D7 | F onG | G7 |
+CM7/FM7 | Bm7(b5)/E7 | Am7/D7 | F onG/G7 |
+Cm7 | Fm7 | Bb7 | EbM7 | AbM7 | Dm7(b5) | G7 | Cm7 |
+Cm7/Fm7 | Bb7/EbM7 | AbM7/Dm7(b5) | G7/Cm7 |
+
+
+# Blues
+
+C7 | C7 | C7 | C7 | F7 | F7 | C7 | C7 | G7 | F7 | C7 | G7 |
+Cm7 | Cm7 | Cm7 | Cm7 | Fm7 | Fm7 | Cm7 | Cm7 |
+G7 | Fm7 | Cm7 | G7 |
+C7 | C7 | F7 | C7 | G7/F7 | C7/G7 | C7 | C7 | F7 | C7 | G7/F7 | C7/G7 |
+Cm7 | Cm7 | Fm7 | Cm7 | G7/Fm7 | Cm7/G7 | Cm7 | Cm7 |
+Fm7 | Cm7 | G7/Fm7 | Cm7/G7 |
+C7(9) | F7(9) | C7(9) | C7(9) | F7(9) | F7(9) | C7(9) | A7(b13) |
+D7(9) | G7(9) | C7(9)/Eb7(9) | D7(9)/C7#(9) |
+C7(9)/F7(9) | C7(9) | F7(9) | C7(9)/A7(b13) | D7(9)/G7(9) |
+C7(9)/Eb7(9)/D7(9)/C#7(9) | C7(9)/F7(9) | C7(9) | F7(9) |
+C7(9)/A7(b13) | D7(9)/G7(9) | C7(9)/Eb7(9)/D7(9)/C#7(9) |
+Cm7(9) | Fm7(9) | Cm7(9) | Cm7(9) | Fm7(9) | Fm7(9) | Cm7(9) | Cm7(9) |
+G7 | Fm7(9) | Cm7(9)/Fm7(9) | Cm7(9)/G7 |
+Cm7(9)/Fm7(9) | Cm7(9) | Fm7(9) | Cm7(9) |
+G7/Fm7(9) | Cm7(9)/G7 | Cm7(9)/Fm7(9) | Cm7(9) |
+Fm7(9) | Cm7(9) | G7/Fm7(9) | Cm7(9)/G7 |
+C7 | F7 | C7/C#7 | C7 | F7 | F7 | C7/Dm7 | Em7/Ebm7 |
+Dm7 | Ebm7/D7 | C7/F7 | C7/G aug |
+C7/F7 | C7/C#7/C7 | F7 | C7/Dm7/Em7/Ebm7 |
+Dm7/Ebm7/D7 | C7/F7/C7/G aug | C7/F7 | C7/C#7/C7 |
+F7 | C7/Dm7/Em7/Ebm7 | Dm7/Ebm7/D7 | C7/F7/C7/G aug |
+
+
+# On Bass
+
+C | F onC | Fm onC | C |
+C/F onC | Fm onC/C | C/F onC | Fm onC/C |
+C | Bb onC | F onC | C |
+Cm | Bb onC | Fm onC | Cm |
+C/Bb onC | F onC/C | C/Bb onC | F onC/C |
+Cm/Bb onC | Fm onC/Cm | Cm/Bb onC | Fm onC/Cm |
+C | G onC | Bb onC | F onC |
+C/G onC | Bb onC/F onC | C/G onC | Bb onC/F onC |
+C | G onC | F onC | Fm onC |
+C/G onC | F onC/Fm onC | C/G onC | F onC/Fm onC |
+C | Eb onC | Dm onC | C |
+Cm | Eb onC | Dm onC | Cm |
+C/Eb onC | Dm onC/C | C/Eb onC | Dm onC/C |
+Cm/Eb onC | Dm onC/Cm | Cm/Eb onC | Dm onC/Cm |
+Bb onC | F onC | C | C |
+Bb onC/F onC | C | C | Bb onC/F onC | C | C |
+C | Ab onC | Bb onC | C |
+Cm | Ab onC | Bb onC | Cm |
+C/Ab onC | Bb onC/C | C/Ab onC | Bb onC/C |
+Cm/Ab onC | Bb onC/Cm | Cm/Ab onC | Bb onC/Cm |
+
+
+# Cliché type
+
+C | G onB | Am | C7 onG | F | C onE | Dm7 | G7 |
+C/G onB | Am/C7 onG | F/C onE | Dm7/G7 |
+C | G onB | C7 onBb | F onA | Fm onAb | C onG | D onF# | G7 |
+Cm | G onB | Cm7 onBb | F onA | Fm onAb | Cm onG | D onF# | G7 |
+C/G onB | C7 onBb/FonA | Fm onAb/C onG | D onF#/G7 |
+C/G onB | C7 onBb/FonA | Fm onAb/C onG | D onF#/G7 |
+Cm/G onB | Cm7 onBb/F onA | Fm onAb/Cm onG | D onF#/G7 |
+Cm/G onB | Cm7 onBb/F onA | Fm onAb/Cm onG | D onF#/G7 |
+C | C7 onBb | F onA | Fm onAb | C onG | F#m7(b5) | Gsus4 | G7 |
+Cm | Cm7 onBb | F onA | Fm onAb | Cm onG | F#dim | Gsus4 | G7 |
+C/C7 onBb | F onA/Fm onAb | C onG/F#m7(b5) | Gsus4/G7 |
+C/C7 onBb | F onA/Fm onAb | C onG/F#m7(b5) | Gsus4/G7 |
+Cm/Cm7 onBb | F onA/Fm onAb | Cm onG/F#dim | Gsus4/G7 |
+Cm/Cm7 onBb | F onA/Fm onAb | Cm onG/F#dim | Gsus4/G7 |
+Cm | Cm7 onBb | Ab | Cm onG | Fm | Cm onEb | Dm7(b5) | G7 |
+Cm/Cm7 onBb | Ab/Cm onG | Fm/Cm onEb | Dm7(b5)/G7 |
+Cm/Cm7 onBb | Ab/Cm onG | Fm/Cm onEb | Dm7(b5)/G7 |
+C | C# dim | Dm7 | Eb dim | Em7 | Am7 | Dm7 | G7 |
+C/C# dim | Dm7/Eb dim | Em7/Am7 | Dm7/G7 |
+C/C# dim | Dm7/Eb dim | Em7/Am7 | Dm7/G7 |
+Cm | G onD | Eb | C7 onE | Fm | F# dim | Gsus4 | G7 |
+Cm/G onD | Eb/C7 onE | Fm/F# dim | Gsus4/G7 |
+Cm/G onD | Eb/C7 onE | Fm/F# dim | Gsus4/G7 |
+
+
+# Tension type
+
+C7(13) | C7(13) | F7(13) | F7(13) | C7(13) | C7(13) | F7(13) | F7(13) |
+Cm7(11) | Cm7(11) | Fm7(11) | Fm7(11) |
+C7(13) | F7(13) | C7(13) | F7(13) |
+Cm7(11) | Fm7(11) | Cm7(11) | Fm7(11) |
+C7(13) | C7(13) | Bb7(13) | Bb7(13) |
+Cm7(11) | Cm7(11) | Bmb7(11) | Bmb7(11) |
+C7(13) | Bb7(13) | C7(13) | Bb7(13) |
+Cm7(11) | Bbm7(11) | Cm7(11) | Bbm7(11) |
+Cm7(11) | Csus4 onA | D7(#9) | G7(b13) |
+Cm7(11)/Csus4 onA | D7(#9)/G7(b13) | Cm7(11)/Csus4 onA |
+D7(#9)/G7(b13) | Cm7(11)/Csus4 onA | D7(#9)/G7(b13) |
+Cm7(11) | F7(b13) | Dm7(9) | G7(13) |
+Cm7(11)/F7(b13) | Dm7(9)/G7(13) | Cm7(11)/F7(b13) | Dm7(9)/G7(13) |
+CM7(9) | Cm7(9) | Dm7 onC | Fm6 onC |
+CM7(9)/Cm7(9) | Dm7 onC/Fm6 onC | CM7(9)/Cm7(9) | Dm7 onC/
+Fm6 onC |
+
+
+# Diatonic chord
+
+CM7 | Dm7 | Em7 | FM7 | G7 | Am7 | Bm7(b5) | CM7 |

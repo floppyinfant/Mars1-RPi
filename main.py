@@ -22,30 +22,62 @@ The analog voltage can be read by an ADC (analog digital converter), e.g. the MC
 which is programmable by the SPI (serial peripheral interface),
 connected to a MCU or computer, e.g. the Raspberry Pi GPIO using the WiringPi2-library.
 
+
+Python:
 @see https://www.python.org/
+
+
+Pygame:
 @see http://www.pygame.org/docs/
 @see PYTHON_HOME/lib/site-packages/pygame/examples/sound.py | midi.py
 @see http://inventwithpython.com/pygame/downloads/gemgem.py
 
+
+Pylibpd (Pure Data):
+@see https://github.com/libpd/libpd/blob/master/samples/python/pygame_test.py
+@see https://github.com/libpd/libpd/blob/master/samples/python/pygame_fun_test.py
+
+
+Soundfonts (sf2, fluidsynth):
+@see https://wiki.ubuntuusers.de/MIDI/
+@see https://github.com/nwhitehead/pyfluidsynth/tree/master/test
+@see https://github.com/MostAwesomeDude/pyfluidsynth/tree/master/demos
+
+
+Wiimote:
+@see https://github.com/abstrakraft/cwiid
+@see https://wiki.ubuntuusers.de/Wiimote/
+@see https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/wiimote/
+
+
+Raspberry Pi:
 @see https://pypi.python.org/pypi/RPi.GPIO
 @see https://github.com/WiringPi/WiringPi2-Python
+
 @see https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code/tree/master/Adafruit_MCP3008
 @see http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html
 
 """
 
+# uses python 2.7
+#from __future__ import
 
-import pygame
-from pygame.locals import *
-import pygame.midi
-#import pygame.mixer_music
 import sys
 import os
 import os.path
-#import argparse
-#import webbrowser
+import time
+import argparse
+import webbrowser
+import pygame
+from pygame.locals import *
+import pygame.midi
+import pygame.mixer_music
+from pylibpd import *
+import array
+import numpy
+import fluidsynth
+import cwiid
 #import RPi.GPIO as GPIO
-#import time
 
 
 #############################################################
@@ -107,6 +139,51 @@ def usage():
     # TODO print usage
     # print("usage: python <progname> --switch_longname [optional_args]")
     print("--list : list available midi devices")
+
+
+def initPd():
+    """
+    m = PdManager(1, 2, pygame.mixer.get_init()[0], 1)
+    patch = libpd_open_patch('funtest.pd', '.')
+    print "$0: ", patch
+
+    # move this to other methods -------------------------
+    # events
+    libpd_float('x', float(event.pos[1]) / SCREENSIZE[1])
+	libpd_float('y', float(event.pos[0]) / SCREENSIZE[0])
+	libpd_bang('trigger')
+
+    # dont forget to release, when app quits()
+    libpd_release()
+    """
+
+
+def initFluidSynth():
+    """
+    fs = fluidsynth.Synth()
+    fs.start()
+
+    sfid = fs.sfload("example.sf2")
+    fs.program_select(0, sfid, 0, 0)    # program_select(track, soundfontid, banknum, presetnum)
+
+    # play the synth
+    fs.noteon(0, 60, 30)                # noteon(track, midinum, velocity)
+    fs.noteon(0, 67, 30)
+    fs.noteon(0, 76, 30)
+    time.sleep(1.0)
+
+    fs.noteoff(0, 60)                   # noteoff(track, midinum)
+    fs.noteoff(0, 67)
+    fs.noteoff(0, 76)
+    time.sleep(1.0)
+
+    # release resources, when app quits
+    fs.delete()
+    """
+
+
+def initWiimote():
+    wii = cwiid.Wiimote()
 
 
 # TODO: Resource Manager
