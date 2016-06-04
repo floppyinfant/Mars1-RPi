@@ -114,6 +114,13 @@ BROWN        = (  85, 65,   0)
 BGCOLOR = WHITE
 
 
+def usage():
+    """ Print usage and exit """
+    # TODO print usage
+    # print("usage: python <progname> --switch_longname [optional_args]")
+    print("--list : list available midi devices")
+
+
 def print_device_info():
     """ MIDI-Devices present on that machine """
 
@@ -133,12 +140,7 @@ def print_device_info():
 
     pygame.midi.quit()
 
-
-def usage():
-    """ Print usage and exit """
-    # TODO print usage
-    # print("usage: python <progname> --switch_longname [optional_args]")
-    print("--list : list available midi devices")
+# ----------------------------------------------------------------------------------
 
 
 def initPd():
@@ -185,22 +187,102 @@ def initFluidSynth():
 def initWiimote():
     wii = cwiid.Wiimote()
 
+# ----------------------------------------------------------------------------------
 
-# TODO: Resource Manager
+
+class DKit():
+    """ TODO: Class DKit encapsulates all that music possibilities
+    """
+
+    def __init__(self):
+        # get path
+        main_dir = os.path.split(os.path.abspath(__file__))[0]
+
+        # TODO ResourceManager for Sounds, Images, etc.
+        self.rs = ResourceManager()
+        self.rs.load_resources()
+
+        # TODO init pygame (@see main())
+
+        # TODO load resources for pygame
+
+        # cwiid, Wiimote
+        self.wii = cwiid.Wiimote()
+
+        # PyFluidSynth
+        self.fs = fluidsynth.Synth()
+        self.fs.start()
+        # set absolute path to file
+        file_path = os.path.join(main_dir, 'data', 'sf2', 'example.sf2')
+        try:
+            sfid = self.fs.sfload(file_path)
+        except:
+            raise SystemExit('Could not load file "%s"' % file_path)
+        self.fs.program_select(0, sfid, 0, 0)
+
+        # pylibpd, Pure Data
+        self.pd = PdManager(1, 2, pygame.mixer.get_init()[0], 1)
+        # set absolute path to file
+        file_path = os.path.join(main_dir, 'data', 'pd', 'funtest.pd')
+        try:
+            self.patch = libpd_open_patch(file_path, '.')
+        except:
+            raise SystemExit('Could not load file "%s"' % file_path)
+        print "$0: ", self.patch
+
+    def init_pygame(self):
+        pass
+
+    def init_midi(self):
+        pass
+
+    def init_pd(self):
+        pass
+
+    def init_fluidsynth(self):
+        pass
+
+    def init_wiimote(self):
+        pass
+
+    def start_mainloop(self):
+        while True:
+            pass
+
+    def __del__(self):
+        if self.pd:
+            libpd_release()
+        if self.fs:
+            self.fs.delete()
+
+        # close MIDI Device
+        # del self.MIDI_OUT
+        pygame.midi.quit()
+
+
 class ResourceManager():
-    """ Resource Manager
+    """ TODO: Resource Manager
     keeps all loaded resources in one place
     """
+
     def __init__(self):
         self.FONTS = {}
         self.IMAGES = {}
         self.SOUNDS = {}
 
+    def load_resources(self):
+        pass
+
     def add_sound(self, name, filename):
         self.SOUNDS[name] = filename
 
+# ----------------------------------------------------------------------------------
+
 
 def main():
+    """ TODO: move all to a class
+    """
+
     global FPSCLOCK, DISPLAYSURF
 
     pygame.init()
